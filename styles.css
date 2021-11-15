@@ -1,0 +1,72 @@
+body {
+    background: radial-gradient(white, red);
+    padding: 75px;    
+}
+ 
+ h1 {
+    font-family: 'Press Start 2P', cursive;
+     text-align: center;
+     color: gold;     
+ }
+
+ h3 {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    color: gold;
+ }
+
+ 
+ .container {
+     display: grid;
+     grid-template-columns: repeat(4, 175px);
+     grid-template-rows: repeat(4, auto);
+     grid-gap: 35px;
+     justify-content: center;
+     margin: 100px;
+     position: relative;
+ }
+
+ .card-item {
+    height: 175px;
+    width: 150px;
+    perspective: 1000px;
+ }
+
+ .card-item-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform .3s;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+ }
+
+
+img {
+    height: 200px;
+    width: 175px;
+}
+
+.thefront,
+.theback {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.theback {
+    transform: rotateY(180deg); 
+}
+
+.card-item.flip .card-item-inner {
+    transform: rotateY(0);
+}
+
+
+
+ /* ADD AN ID FOR GRID: DISPLAY- GRID, GRID TEMPLATE COLUMNS, GRID TEMPLATE ROWS
+ */
+
+ /* ADD A CLASS FOR BOX */
