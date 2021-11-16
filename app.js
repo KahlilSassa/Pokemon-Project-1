@@ -1,6 +1,5 @@
 let randomPokemonArray = ["Alakazam", "Charizard","Articuno", "Gyrados","Alakazam", "Articuno","Alakazam", "Charizard","Articuno","Gyrados","Charizard", "Gyrados","Articuno", "Alakazam","Charizard", "Gyrados",]
 
-
 // Randomize cards
 randomPokemonArray.sort(() => 0.3 - Math.random())
 
@@ -38,6 +37,7 @@ function checkForMatch(){
         alert("You found a match")},500)
         matches[0].location.parentElement.parentElement.parentElement.removeEventListener('click', game.handleClick)
         matches[1].location.parentElement.parentElement.parentElement.removeEventListener('click', game.handleClick)
+        matches = []
             // Figure out once match is found . cards are not clickable anymore. ***
             // Also find out a way to log matches into h3 tag. think textContent
             // Allow more matches to be made once first match is found.
