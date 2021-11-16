@@ -37,22 +37,26 @@ let matches = []
 function checkForMatch(){
     // check to see if we have two cards chosen are a match. 
     // To see a comparison.
-
      if(matches.length === 2){
      if(matches[0].name === matches[1].name){
         setTimeout(() => { 
         alert("You found a match")},500)
-        matches.style.pointerEvents = 'none'
+        
+        matches[0].location.parentElement.parentElement.parentElement.removeEventListener('click', game.handleClick)
+        matches[1].location.parentElement.parentElement.parentElement.removeEventListener('click', game.handleClick)
+
         // Figure out once match is found . cards are not clickable anymore.
         // Also find out a way to log matches into h3 tag. think textContent
+
         } else {
-            console.log(matches.location)
+            console.log(matches[0].location)
             setTimeout(() => {
             alert('Not a match!')
             matches[0].location.parentElement.parentElement.parentElement.classList.toggle('flip')
             matches[1].location.parentElement.parentElement.parentElement.classList.toggle('flip')
             matches = []
             },500)
+
             // matches[0].location.parentElement.parentElement.parentElement.classList.toggle('flip')
             // matches[1].location.parentElement.parentElement.parentElement.classList.toggle('flip')
         }  
@@ -70,7 +74,6 @@ const game = {
         })
         checkForMatch()
     }
-    // Remove event listener that flips card if its a match.
 
 }
 
