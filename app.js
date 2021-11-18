@@ -29,28 +29,28 @@ cardItem.forEach(card => {
 let matches = []
 
 function checkForMatch(){
-    // check to see if we have two cards chosen are a match. ***
-    // To see a comparison.
-     if(matches.length === 2){
-     if(matches[0].name === matches[1].name){
-        setTimeout(() => { 
-        alert("You found a match")},500)
-        matches[0].location.parentElement.parentElement.parentElement.removeEventListener('click', game.handleClick)
-        matches[1].location.parentElement.parentElement.parentElement.removeEventListener('click', game.handleClick)
+        // Check to see if two picked cards are a match. ***
+    if(matches.length === 2){
+    if(matches[0].name === matches[1].name){
+        //  created a timeout of .5 sec to alert when a match is found.***
+    setTimeout(() => { 
+    alert("You found a match")},500)
+        // Removed the click listener when match was found.***
+    matches[0].location.closest('.card-item').removeEventListener('click', game.handleClick)
+    matches[1].location.closest('.card-item').removeEventListener('click', game.handleClick)
         matches = []
-            // Figure out once match is found . cards are not clickable anymore. ***
-            // Also find out a way to log matches into h3 tag. think textContent
-            // Allow more matches to be made once first match is found.
         } else {
             console.log(matches[0].location)
             setTimeout(() => {
             alert('Not a match!')
-            matches[0].location.parentElement.parentElement.parentElement.classList.toggle('flip')
-            matches[1].location.parentElement.parentElement.parentElement.classList.toggle('flip')
+            matches[0].location.closest('.card-item').classList.toggle('flip')
+            matches[1].location.closest('.card-item').classList.toggle('flip')
             matches = []
             },500)
         }  
-    }   
+    } else {
+        
+    }  
 }  
 
 
@@ -59,7 +59,7 @@ const game = {
     handleClick: (e) => {
         e.target.closest('.card-item').classList.toggle('flip')
         matches.push({
-          name: e.target.parentElement.parentElement.parentElement.dataset.pokemon,
+          name: e.target.closest('.card-item').dataset.pokemon,
             location: e.target,
         })
         checkForMatch()
