@@ -17,7 +17,8 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="ihttps://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2560px-International_Pok%C3%A9mon_logo.svg.png" alt="Logo" width="80" height="80">
+    <img src= ![image](https://user-images.githubusercontent.com/91163976/142711596-a6437e01-aa05-456e-8ab3-c705fc81ac01.png)
+
   </a>
 
   <h3 align="center">POKEMON MATCH</h3>
@@ -107,12 +108,11 @@ Special thanks to Billie, Matt, and Paresh for helping me with this project.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [product-screenshot]: images/screenshot.png
-<img width="1440" alt="Screen Shot 2021-11-19 at 8 04 12 PM" src="https://user-images.githubusercontent.com/91163976/142711510-f3999936-1a43-4ea3-97ef-c325f30edcaf.png">
-  
-  <img width="1440" alt="Screen Shot 2021-11-19 at 8 03 57 PM" src="https://user-images.githubusercontent.com/91163976/142711518-9a04d4f7-0401-4c13-beb2-91d7261a38bf.png">
+    
+    <img width="538" alt="Screen Shot 2021-11-19 at 8 33 42 PM" src="https://user-images.githubusercontent.com/91163976/142711638-c3213fa8-862e-45a4-943a-b4cc47d0b777.png">
+    
+    <img width="599" alt="Screen Shot 2021-11-19 at 8 34 19 PM" src="https://user-images.githubusercontent.com/91163976/142711649-c02dec46-4456-480e-859b-7e649b203976.png">
 
-<img width="1440" alt="Screen Shot 2021-11-19 at 8 04 12 PM" src="https://user-images.githubusercontent.com/91163976/142711510-f3999936-1a43-4ea3-97ef-c325f30edcaf.png">
+    
+    <img width="552" alt="Screen Shot 2021-11-19 at 8 34 47 PM" src="https://user-images.githubusercontent.com/91163976/142711662-6653849d-6426-4324-bc2e-455901723a47.png">
 
-  <img width="1440" alt="Screen Shot 2021-11-19 at 8 04 08 PM" src="https://user-images.githubusercontent.com/91163976/142711528-982f72e9-343d-4998-a29d-e557e8c2ca65.png">
-
-  
