@@ -15,15 +15,20 @@
 
 <!-- PROJECT LOGO -->
 
-<img width="538" alt="Screen Shot 2021-11-19 at 8 33 42 PM" src="https://user-images.githubusercontent.com/91163976/142711909-a36ced45-5a59-44ef-b18e-55005a3d537a.png">
 
-<img width="599" alt="Screen Shot 2021-11-19 at 8 34 19 PM" src="https://user-images.githubusercontent.com/91163976/142711913-7beb7501-2a22-4a5a-9512-ffd1841def08.png">
+![pokemon](https://user-images.githubusercontent.com/91163976/142711993-35635117-0698-4dda-93fa-816181df7dd9.png)
 
-
-<img width="552" alt="Screen Shot 2021-11-19 at 8 34 47 PM" src="https://user-images.githubusercontent.com/91163976/142711929-665f24bb-355e-4677-bedc-e09359f1a56f.png">
 
 
   <h3 align="center">POKEMON MATCH</h3>
+  
+  <img width="538" alt="Screen Shot 2021-11-19 at 8 33 42 PM" src="https://user-images.githubusercontent.com/91163976/142711949-d158f050-9f50-420a-9f54-93699005e908.png">
+
+<img width="599" alt="Screen Shot 2021-11-19 at 8 34 19 PM" src="https://user-images.githubusercontent.com/91163976/142711959-bc75a8fb-38ac-46aa-9b28-30738581aea6.png">
+
+<img width="552" alt="Screen Shot 2021-11-19 at 8 34 47 PM" src="https://user-images.githubusercontent.com/91163976/142711965-0ef83155-74f2-440a-b945-82f1ee0480ff.png">
+
+  
 
 <!-- TABLE OF CONTENTS -->
 <details>
