@@ -91,12 +91,5 @@ Special thanks to Billie, Matt, and Paresh for helping me with this project.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[product-screenshot]: images/screenshot.png
-    
-    <img width="538" alt="Screen Shot 2021-11-19 at 8 33 42 PM" src="https://user-images.githubusercontent.com/91163976/142711638-c3213fa8-862e-45a4-943a-b4cc47d0b777.png">
-    
-    <img width="599" alt="Screen Shot 2021-11-19 at 8 34 19 PM" src="https://user-images.githubusercontent.com/91163976/142711649-c02dec46-4456-480e-859b-7e649b203976.png">
-
-    
-    <img width="552" alt="Screen Shot 2021-11-19 at 8 34 47 PM" src="https://user-images.githubusercontent.com/91163976/142711662-6653849d-6426-4324-bc2e-455901723a47.png">
+[product-screenshot]: images/screenshot.pn
 
