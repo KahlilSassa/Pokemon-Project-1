@@ -14,10 +14,6 @@
 
 
 <!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-![image](https://user-images.githubusercontent.com/91163976/142711696-3b810407-29f1-4f52-89be-4bc665ccdeb4.png)
 
   </a>
 
