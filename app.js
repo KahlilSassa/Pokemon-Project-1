@@ -71,4 +71,4 @@ const game = {
 game.card.forEach((card) => {
     card.addEventListener('click', game.handleClick)
 })
-
+   
